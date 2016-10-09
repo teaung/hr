@@ -102,9 +102,9 @@
 					<div class="form-group">
 						<label for="type" class="control-label"><font color="red">*</font>资源类型:</label> 
 							
-						<input name="type" type="radio" value="menu" >Menu
-						<input name="type" type="radio" value="submenu" >SubMenu
-						<input name="type" type="radio" value="button" checked="checked">Button
+						<input name="type" type="radio" value="menu" >菜单
+						<input name="type" type="radio" value="function" >功能
+						<input name="type" type="radio" value="button" checked="checked">按钮
 					</div>
 					<div class="form-group">
 						<label for="url" class="control-label">菜单路径URL:</label> <input
