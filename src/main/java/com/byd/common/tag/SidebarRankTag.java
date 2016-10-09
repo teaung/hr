@@ -79,7 +79,7 @@ public class SidebarRankTag extends SimpleTagSupport{
 					out.println("<a href='#'>");
 					out.println("<i class='fa  fa-circle-o'></i> <span>"+res.getName()+"</span>");
 					out.println("<span class='pull-right-container'>");
-					out.println("<i class='fa fa-angle-left pull-right'></i>");
+					out.println("<i class='fa fa-angle-down pull-right'></i>"); //fa-angle-left pull-right fa-circle-o
 					out.println("</span>");
 					out.println("</a>");
 					out.println("<ul class='treeview-menu'>");
@@ -87,7 +87,7 @@ public class SidebarRankTag extends SimpleTagSupport{
 					{
 						if(res.getId()==subres.getParentId())
 						{
-							out.println("<li><a class='sidebarMenuHref' href='"+subres.getUrl()+"'><i class='fa fa-circle-o'></i>"+subres.getName()+"</a></li>");
+							out.println("<li><a class='sidebarMenuHref' href='"+subres.getUrl()+"'><i class='fa'></i>"+subres.getName()+"</a></li>");
 						}
 	
 					}

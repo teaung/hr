@@ -4,8 +4,8 @@
       <footer class="main-footer">
         <!-- To the right -->
         <div class="pull-right hidden-xs">
-          version beta1.0
+          Version: beta 1.0
         </div>
         <!-- Default to the left -->
-        <strong>Copyright &copy; 2015 <a href="#">BYD DIV5 HR KPI OS</a>.</strong> All rights reserved.
+        <strong>Copyright &copy; 2016 <a href="#">BYD DIV5 HRKPI System</a>.</strong> All rights reserved.
       </footer>
